@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+    text-decoration: none;
+    font-size: 15px;
+    outline: none;
+}
+.section{
+    height: 100vh;
+}
+a{
+    color: white; 
+}
+.topsection{
+    width: 100%;
+    padding: 10px 10px;
+    
+}
+.searchbuttons{
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img-srch{
+    padding: 6px 8px;
+    background-color: rgb(117, 117, 231);
+    border-radius: 3px;
+}
+.google_letter{
+    font-size: 6rem;
+    font-weight: 400;
+}
+.letter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.google-lettersection{
+    margin-top: 10%;
+}
+.g_color{
+    color: rgb(4, 77, 145);
+    text-transform: uppercase;
+}
+.o_color{
+    color: rgb(255, 38, 38);
+}
+.o2_color{
+    color: rgb(211, 208, 26);
+}
+.g2_color{
+    color: rgb(28, 95, 172);
+}
+.l_color{
+    color: rgb(49, 136, 49);
+}
+.e_color{
+    color: rgb(172, 34, 34);
+}
+.link_btn{
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    background-color: rgb(117, 117, 231);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+form[class="nrl_srch"]{
+    margin-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input[class="nrml_srch_text"]{
+    min-width: 35rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+    padding: 1rem;
+}
+.action-btns{
+    padding-top: 1rem;
+}
+.adv_srch{
+    max-width: 1024px;
+    margin: auto;
+    padding: 2rem 1rem;
+    margin-top: 0 ;
+}
+
+
+.firstfield{
+    width: 15rem;
+    display: inline-block;
+}
+
+.firstfieldinput{
+    display: inline-block;
+}
+
+.firstfieldinput_text{
+    width: 30rem;
+}
+.textfilds{
+    padding: .8rem 0;
+    margin: auto;
+}
+.firstfieldinput_text{
+    height: 30px;
+}
+.page_header_lable{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.page_name{
+    font-size: 25px;
+    color: brown;
+}
+.adv_srch_btn{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.findpage_lable{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+@media(max-width: 700px){
+    .topsection{
+        padding-left: 3rem ;
+    }
+    .google_letter{
+        font-size: 4rem;
+    }
+    .google-lettersection{
+        margin-top: 40%;
+    }
+    
+    input[class="nrml_srch_text"]{
+        min-width: 20rem;
+        height: 1rem;
+    }
+    .topsection_strk{
+        padding-left: 7.5rem ;
+    }
+    .page_header_lable{
+        margin-left: 1.5rem;
+        margin-top: 3rem;
+    }
+    .page_name{
+        font-size: 20px;
+    }
+    .findpage_lable{
+        margin-left: 1.5rem;
+    } 
+    .firstfieldinput_text{
+        width: 14rem;
+        border: 1px solid rgb(100, 100, 100);
+    }
+    .firstfield{
+        width: 7rem;
+        
+    }
+}
